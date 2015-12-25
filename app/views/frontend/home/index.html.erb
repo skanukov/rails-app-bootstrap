@@ -1,2 +1,12 @@
+<% provide(:title, 'Home#index') %>
+
 <h1>Frontend::Home#index</h1>
 <p>Find me in app/views/frontend/home/index.html.erb</p>
+
+<% content_for :footer_scripts do %>
+<script type="text/javascript">
+  (function () {
+    console.log('Hello from Frontend::Home#index');
+  })();
+</script>
+<% end %>
