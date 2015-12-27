@@ -12,7 +12,6 @@ class UserDashboard < Administrate::BaseDashboard
     email: Field::String,
     password: PasswordField,
     password_confirmation: PasswordField,
-    reset_password_token: Field::String,
     reset_password_sent_at: Field::DateTime,
     remember_created_at: Field::DateTime,
     sign_in_count: Field::Number,
