@@ -1,4 +1,4 @@
-# Rails app bootstrap
+# Rails app bootstrap. WARNING! This repo is deprecated and no longer maintained. Use [Railsify](https://github.com/s-kanukov/railsify) instead.
 
 This is a basic Rails app with admin and frontend sections to use as a starting point for your new applications.
 
